@@ -1,0 +1,128 @@
+.container1 {
+    width: 100%;
+    height: 740px;
+    background-image: url(photo/a0003398_main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    width: 80%;
+    height: 75px;
+    background: #FFF;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 25%);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    margin-left: -40%;
+    
+    display: flex;
+}
+.itema {
+    line-height: 75px;
+    font-size: 18px;
+}
+.item1 {
+    position: absolute;
+    left: 4%;
+}
+.item2{
+    position: absolute;
+    left: 7.5%;
+    top: 5%;
+}
+.item3 {
+    position: absolute;
+    left: 19%;
+    top: 5%;
+}
+.item4{
+    position: absolute;
+    left: 27%;
+    top: 5%;
+}
+.item5 {
+    border: 2px solid #bfbfbf;
+    position: absolute;
+    left: 83%;
+    top: 5%;
+    color: gray;
+    padding: 0px 100px 0px 5px;
+    margin: 24px 0px ;
+    font-size: 13px;
+}
+.item6 {
+    position: absolute;
+    left: 93%;
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+.content{
+    width: 1200px;
+    height: 500px;
+    border-radius: 5px;
+    background: rgba(255,255,255,.8);
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left: -600px;
+}
+
+p{
+    font-size: 26px;
+}
+
+.a{
+    padding: 60px 75px 0px;
+}
+
+.b{
+    padding: 50px 120px 10px;
+}
+
+.c{
+    padding: 0px 120px 0px;
+    line-height: 1.8;
+}
+.flex {
+    display: flex;
+    height: 600px;
+    padding: 0px 100px;
+    width: 100%;
+}
+.item {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+}
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background: #000;
+    color: white;
+}
+.nature {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0em 0em 0.3em black;
+}
+.human {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0em 0em 0.3em black;
+}
